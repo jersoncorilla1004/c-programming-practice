@@ -23,4 +23,3 @@ int main(void)
 
 }
 
-// Sa Lesson na itop 
