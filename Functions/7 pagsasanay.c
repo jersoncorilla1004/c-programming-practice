@@ -30,3 +30,9 @@ int main(void)
     printf("%d\n", is_even(7));
     return 0;
 }
+// Sa pagsasanay na ito: max at is_even, gamit ang if, else, return, at %
+// max(a, b): ibinabalik ang mas malaki
+// is_even(n): ibinabalik ang 1 kung even at 0 kung odd
+// !(n % 2) at n % 2 == 0 ay pareho ang ibig sabihin: walang sobra
+// kapag walang panaklong, ang !n % 2 ay magkaiba (binabaligtad muna ang n)
+// hindi sasabihin ng compiler kung baliktad ang logic, ikumpara ang output sa inaasahan
