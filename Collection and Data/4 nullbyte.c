@@ -13,8 +13,7 @@ int main(void){
     return 0;
 
 }
-// Sa lesson na ito ang string: array ng char na may '\0' (halagang 0) sa dulo
-// %s ay butas para sa buong string, %c para sa isang char, %d para sa numero ng char
-// char lagda[] = "MZ"; ay 3 byte: 'M' (77), 'Z' (90), '\0' (0)
-// kaya sizeof ay 3, hindi 2
-// ang '\0' ang nagsasabi sa printf kung kailan titigil
+// Sa lesson na ito ang '\0' (null terminator): byte na may halagang 0 sa dulo ng string
+// ang while (lagda[i] != '\0') ay nagbabasa hanggang makita ang dulo
+// lagda[2] = 0 ay ang nakatagong ikatlong byte ng "MZ"
+// ito ang ginagamit ng printf("%s") para malaman kung kailan titigil
